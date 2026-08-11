@@ -1,0 +1,17 @@
+{
+  "name": "book-a-doctor-app",
+  "version": "1.0.0",
+  "description": "Full-stack Doctor Appointment Booking System",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "test": "cd backend && npm test"
+  },
+  "keywords": ["doctor-booking", "healthcare", "react", "express", "mongodb"],
+  "author": "Antigravity Dev Team",
+  "license": "MIT"
+}
